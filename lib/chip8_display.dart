@@ -4,7 +4,8 @@ class Chip8Display extends StatelessWidget {
   final Color color;
   final List<List<bool>> display;
 
-  const Chip8Display({Key? key, required this.display, required this.color}) : super(key: key);
+  const Chip8Display({Key? key, required this.display, required this.color})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
